@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 задания</title>
+  <style>
+    .form{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      gap: 10px;
+    }
+    .form input{
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+    .form input[type="submit"]{
+      cursor: pointer;
+    }
+    body{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .title{
+      font-size: 24px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .form2, .form3{
+      display: none;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1 class="generate"></h1>
+  <table class="result" border="1px">
+      <caption>
+        результаты
+      </caption>
+      <thead>
+        <tr>
+          <th class="col1"></th>
+          <th class="col2"></th>
+          <th class="col3"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="row1"></th>
+          <th class="row2"></th>
+          <th class="row3"></th>
+        </tr>
+      </tbody>
+    
+  </table>
+  <script src="/index.js"></script>
+</body>
+
+</html>
